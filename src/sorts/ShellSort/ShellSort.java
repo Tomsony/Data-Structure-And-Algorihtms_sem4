@@ -1,4 +1,4 @@
-package sorts;
+package sorts.ShellSort;
 
 public class ShellSort {
     // Сортировка Шелла

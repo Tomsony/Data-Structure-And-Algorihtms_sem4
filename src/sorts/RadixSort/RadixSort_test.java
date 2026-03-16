@@ -1,4 +1,4 @@
-package sorts;
+package sorts.RadixSort;
 
 import org.junit.jupiter.api.Test;
 

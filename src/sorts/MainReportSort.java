@@ -1,8 +1,12 @@
 package sorts;
 
 import preparatory.Task_1;
+import sorts.InsertionSort.InsertionSort;
+import sorts.MergeSort.MergeSort;
+import sorts.QuickSort.QuickSort;
+import sorts.ShellSort.ShellSort;
 
-public class MainSort {
+public class MainReportSort {
     public static void main(String[] args) {
         int size = 10000;
         int max = 69696;
