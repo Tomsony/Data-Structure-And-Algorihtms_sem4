@@ -1,4 +1,4 @@
-package search;
+package sorts;
 
 import preparatory.Task_1;
 

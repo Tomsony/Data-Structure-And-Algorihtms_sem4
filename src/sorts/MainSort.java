@@ -1,7 +1,6 @@
 package sorts;
 
 import preparatory.Task_1;
-import search.SearchUtility;
 
 public class MainSort {
     public static void main(String[] args) {
