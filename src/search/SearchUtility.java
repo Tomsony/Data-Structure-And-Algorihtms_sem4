@@ -11,7 +11,7 @@ public class SearchUtility {
     @FunctionalInterface
             // @param array отсортированный массив
             // @param key искомый элемент поиска
-    interface IntArraySearch {
+    public interface IntArraySearch {
         int search(int[] array, int key);
     }
 
@@ -40,7 +40,7 @@ public class SearchUtility {
 
     // Функциональный интерфейс для слияния массивов
     @FunctionalInterface
-    interface MergeFunction {
+    public interface MergeFunction {
         int[] merge(int[] left, int[] right);
     }
 
@@ -58,7 +58,7 @@ public class SearchUtility {
 
     // Функциональный интерфейс для сортировки вставками
     @FunctionalInterface
-    interface InsertionFunction {
+    public interface InsertionFunction {
         int [] insertion(int[] sort);
     }
 
@@ -72,7 +72,7 @@ public class SearchUtility {
 
     // Функциональный интерфейс для быстрой сортировки
     @FunctionalInterface
-    interface QuickSortFunction {
+    public interface QuickSortFunction {
         int[] quick(int[] arr, int low, int high);
     }
 
@@ -89,7 +89,7 @@ public class SearchUtility {
 
     // Функциональный интерфейс для поразрядной сортировки
     @FunctionalInterface
-    interface RadixSortFunction {
+    public interface RadixSortFunction {
         int[] radix(int[] arr);
     }
     public static long measureRadixSortTime(int[] array, int iterations, RadixSortFunction radixSortFunction) {
